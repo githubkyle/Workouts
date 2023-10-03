@@ -1,0 +1,18 @@
+.cardClass {
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.hovering:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.hovering:active {
+    transform: scale(1.05);
+    background-color: rgb(33, 129, 238) !important;
+    border-color: rgb(33, 129, 238);
+}

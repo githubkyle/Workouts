@@ -1,0 +1,19 @@
+.contributor {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #646464;
+}
+
+.contributor:hover {
+  background-color: #9e9d9d;
+}
+
+.contributor a {
+  text-decoration: none;
+}
+
+.text-center py-4 bg-dark text-white {
+  position: fixed;
+  bottom: 0;
+}
